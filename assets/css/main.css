@@ -17,6 +17,10 @@ a{
   color: #fff;
 }
 
+.bg-white{
+  background-color: #fff;
+}
+
 .f-18{
   font-size: 18px;
   font-weight: bold;
@@ -74,8 +78,9 @@ a{
 /** section how-work**/
 .how-work{
   position: relative;
-  margin-top: 100px;
+  padding-top: 100px;
   background-color: #F9F9F9;
+  z-index: -10;
 }
 
 .circle{
