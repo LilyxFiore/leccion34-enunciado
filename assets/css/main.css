@@ -152,9 +152,25 @@ a{
 .avatar{
   width: 100px;
   height: 100px;
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
   background: url("../img/testimonials.jpg");
   background-size: cover;
   border-radius: 75%;
   z-index: 100;
+}
+
+.avatar-foto2{
+  background-position: bottom;
+}
+
+.avatar-foto3{
+  background-position: center;
+}
+
+.icon-rating{
+  background-size: cover;
+  display: block;
+  margin: auto;
+  width: 120px;
+  height: 30px;
 }
