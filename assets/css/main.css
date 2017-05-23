@@ -22,6 +22,11 @@ a{
   font-weight: bold;
 }
 
+.f-36{
+  font-size: 36px;
+  font-weight: 600;
+}
+
 .margin-30{
   margin: 30px 0;
 }
@@ -95,15 +100,45 @@ a{
   background-position: center;
 }
 
-.f-36{
-  font-size: 36px;
-  font-weight: 600;
-}
-
 .gray{
   color: #494949;
 }
 
 .m-bottom-70{
   margin-bottom: 70px;
+}
+
+/** section promise**/
+.m-bottom-30{
+  margin-bottom: 30px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.icon2{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.head-panel{
+  display: inline-block;
+  vertical-align: middle;
+  color: #6EA43F;
+  font-weight: bold;
+}
+
+.icon-sm{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 0;
+}
+
+.relative{
+  position: relative;
 }
