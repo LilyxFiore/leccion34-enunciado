@@ -46,7 +46,7 @@ a{
     border-radius: 999px;
 }
 
-section{
+section, footer{
   width: 100%;
   padding: 40px 20px;
 }
@@ -158,8 +158,9 @@ section{
 
 /** seccion commmunity**/
 #community{
-  background-color: #75B9E7;
+  background-color:  #1280c9;
   color: white;
+  padding-bottom: 1200px;
 }
 
 .avatar{
@@ -300,6 +301,7 @@ ul > li > img {
 /** section quote**/
 #quote{
   background-color: #EEEEEE;
+  height: 1200px;
 }
 
 .blue-light{
@@ -338,4 +340,20 @@ input[type="checkbox"]:checked {
 .p-r{
   padding: 10px 0 10px 60px;
   font-size: 16px;
+}
+
+
+/** footer **/
+footer{
+  background-color: #3498DB;
+  color: white;
+}
+
+.blue{
+  background-color: #1280c9;
+  border-radius: 100%;
+}
+
+.blue:hover{
+  background-color: #0E629A;
 }
