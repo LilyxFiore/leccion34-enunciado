@@ -142,3 +142,19 @@ a{
 .relative{
   position: relative;
 }
+
+/** seccion commmunity**/
+#community{
+  background-color: #75B9E7;
+  color: white;
+}
+
+.avatar{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: url("../img/testimonials.jpg");
+  background-size: cover;
+  border-radius: 75%;
+  z-index: 100;
+}
