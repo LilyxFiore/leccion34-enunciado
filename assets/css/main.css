@@ -174,3 +174,63 @@ a{
   width: 120px;
   height: 30px;
 }
+
+/*section photos */
+#photos{
+  padding: 50px;
+}
+
+.bg-photo{
+  width: 200px;
+  height:200px;
+  z-index: 0;
+  background-size: cover;
+}
+
+.bg-1{
+  background-image: url("../img/exit-cleaner.jpg");
+  transform: rotateZ(13deg);
+}
+
+.bg-2{
+  background-image: url("../img/oven-cleaner.jpg");
+  transform: rotateZ(-15deg);
+}
+
+.bg-3{
+  background-image: url("../img/window-cleaner.jpg");
+  transform: rotateZ(-15deg);
+}
+
+.photo5{
+  width: 200px;
+  height:200px;
+  transform:rotateZ(15deg);
+  z-index: 10;
+}
+
+.photo6{
+  width: 200px;
+  height:200px;
+  transform:rotateZ(-12deg);
+  z-index: 100;
+}
+
+.photo7{
+  width: 200px;
+  height:200px;
+  transform:rotateZ(20deg);
+  z-index: 110;
+}
+
+.photo8{
+  width: 200px;
+  height:200px;
+  transform:rotateZ(19deg);
+  z-index: 120;
+}
+
+.photo5:hover, .photo6:hover, .photo7:hover,.photo8:hover {
+  transition: 0.6s;
+  transform:rotateZ(10deg);
+}
